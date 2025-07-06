@@ -23,7 +23,7 @@ I primarily worked on:
 | Motor          | 24HS40-5004D-E1000 (4.0 Nm Closed-loop Stepper) |
 | Driver         | CL57T-V41                      |
 | Gearbox        | EG24-G10                       |
-| Wheel Diameter | 15 cm                          |
+| Wheel Diameter | 12.5 cm                          |
 | Max Speed      | 0.6 m/s                        |
 | Acceleration   | 0.6 m/s²                       |
 
