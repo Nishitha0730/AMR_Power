@@ -9,7 +9,6 @@ The AMR is designed to carry a **5 kg payload** (total mass **25 kg**) and navig
 
 I primarily worked on:
 
-- Selecting motors, drivers, and gearbox based on torque and speed requirements.
 - Performing detailed **torque and power calculations**.
 - Designing the complete **power distribution system**.
 - Selecting and integrating DC-DC converters (boost & buck) to meet system demands.
