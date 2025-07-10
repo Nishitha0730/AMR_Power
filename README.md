@@ -81,6 +81,34 @@ We used a **Power Distribution Board (PDB) 60A XT30** to safely distribute power
 
 ---
 
+
+## 🔋 Battery & BMS
+
+### 🔥 Battery Pack
+| Specification         | Value                     |
+|------------------------|--------------------------|
+| Type                   | Li-ion 6S (22.2V nominal) |
+| Capacity               | 5 Ah                     |
+| Max Discharge Current   | ~50 A (10C burst)        |
+
+### 🧠 BMS: JK-JBD4A8S4P
+| Feature                | Value                   |
+|-------------------------|-------------------------|
+| Cells Supported         | 4S–8S Li-ion/LiFePO4    |
+| Max Charging Current    | Configurable, typical ~20 A |
+| Balancing Current       | ~1.5 A active balancing |
+| Communication           | UART/Bluetooth App     |
+
+✅ **Functions:**  
+- Cell balancing (during charging & standby)  
+- Overcharge & overdischarge protection  
+- Overcurrent & short circuit protection  
+- Bluetooth app for live cell voltages, current, cycle data.
+
+> 📖 [JK BMS Manual](https://www.jkbms.com)
+
+---
+
 ## 📚 References & Calculations
 
 - [Rolling friction (Engineering Toolbox)](https://www.engineeringtoolbox.com/rolling-friction-resistance-d_1303.html)
