@@ -108,6 +108,54 @@ We used a **Power Distribution Board (PDB) 60A XT30** to safely distribute power
 
 ---
 
+## 🔌 Battery Charging Process
+
+We used the **iMAX B6 Smart Balance Charger** for charging our 6S Li-ion battery safely.
+
+### ⚠️ Safety Notes
+- Select correct battery type.
+- Always use **Balance Charge** mode.
+- Never leave charging battery unattended.
+- Use a fireproof charging bag if possible.
+
+---
+
+### 🪫 Charging Steps (with iMAX B6)
+
+1. **Connect Battery and Balance Lead**  
+
+2. **Power On Charger**  
+
+3. **Select Li-ion Balance Mode**  
+   Navigate: `Li-ion BATT` → `Li-ion BALANCE`  
+
+4. **Set Parameters**  
+   - Battery Type: Li-ion  
+   - Cell Count: 6S  
+   - Voltage: 21.6V  
+   - Current: 0.5C (max)
+
+5. **Start Charging**  
+   - Hold `ENTER` to start.  
+   - Confirm cell count and press again.  
+
+6. **Monitor the Charging Process**  
+   - Total voltage should reach < 25.2V  
+   - Check individual cell voltages  
+   ![Step 6](images/step6_monitor.jpg)
+---
+
+### 🔋 Charging Profile Summary
+
+| Setting         | Value              |
+|----------------|--------------------|
+| Battery Type    | Li-ion (6S)        |
+| Max Voltage     | 25.2 V             |
+| Charge Current  | < 0.5 C             |
+| Mode            | Li-ion Balance       |
+
+---
+
 ## 📚 References & Calculations
 
 - [Rolling friction (Engineering Toolbox)](https://www.engineeringtoolbox.com/rolling-friction-resistance-d_1303.html)
